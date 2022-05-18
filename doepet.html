@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="doepet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title> doepet </title>
+</head>
+<body>
+    
+    <div class="hedder">
+        <div class="navbar">
+
+            <img src="images/doepet-logo.png">
+
+            <div class="state-select" id="state">
+                <div class="select">
+                    <p id="text"> Estado </p>
+                    <i class="fa-solid fa-chevron-down" id="moving_arrow"></i>
+                </div>
+                <ul class="option_box" id="list">
+                    <li class="option" onclick="myfunction('Rio Grande do Norte')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Rio Grande do Norte</p>
+                    </li>
+                    <li class="option" onclick="myfunction('Pernambuco')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Pernambuco</p>
+                    </li>
+                    <li class="option" onclick="myfunction('Paraíba')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Paraíba</p>
+                    </li>
+                    <li class="option" onclick="myfunction('Ceará')">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Ceará</p>
+                    </li>
+                </ul>
+            </div>
+
+            
+
+            <div class="search_box">
+                <input type="text" class="searchclass" id="searchid" placeholder="Adote cachorros, gatos e outros animais...">
+                <p> <i class="fa-solid fa-magnifying-glass"></i> </p>
+            </div>
+        
+            <div class="message">
+                <i class="fa-solid fa-comment"></i>
+            </div>
+        
+            <div class="notification">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+        
+            <div class="your_logo">
+                <div class="image" id="imageid">
+                    <img src="images/doepet-logo.png">
+                </div>
+        
+                <div class="dropdown" id="dropdownid">
+                    <div class="nameandimg">
+                        <img src="images/doepet-logo.png">
+                        <p>Joao Vieira</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-user"></i>
+                            <p> Minha Conta</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-paw"></i>
+                            <p> Adoções</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <i class="fa-solid fa-circle-question"></i>
+                            <p> Suporte</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-gear"></i>
+                            <p> Configurações</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            <p> Sair</p>
+                        </li>
+                    </ul>
+                </div>
+        
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Anúncio -->
+    
+    <div class="anuncio">
+        <div class="primeira_linha">
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="primeira_linha">
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="primeira_linha">
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="primeira_linha">
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="primeira_linha">
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box">
+                <a href="">
+                    <img src="images/caramelo.jpg">
+                    <h2>Floquinhos</h2>
+                    <p>Doce SRD caramelo</p>
+                    <div class="endereco_data">
+                        <p>Natal, Rio Grande do Norte</p>
+                        <p> 18/05/2022</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carregar mais -->
+
+    <div class="load_more">
+        <button id="load_more_id"> Carregar Mais</button>
+
+        <div class="load_more_anuncios" id="load_more_anuncios_id">
+            <div class="primeira_linha">
+                <div class="box">
+                    <a href="">
+                        <img src="images/caramelo.jpg">
+                        <h2>Floquinhos</h2>
+                        <p>Doce SRD caramelo</p>
+                        <div class="endereco_data">
+                            <p>Natal, Rio Grande do Norte</p>
+                            <p> 18/05/2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="">
+                        <img src="images/caramelo.jpg">
+                        <h2>Floquinhos</h2>
+                        <p>Doce SRD caramelo</p>
+                        <div class="endereco_data">
+                            <p>Natal, Rio Grande do Norte</p>
+                            <p> 18/05/2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="">
+                        <img src="images/caramelo.jpg">
+                        <h2>Floquinhos</h2>
+                        <p>Doce SRD caramelo</p>
+                        <div class="endereco_data">
+                            <p>Natal, Rio Grande do Norte</p>
+                            <p> 18/05/2022</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="">
+                        <img src="images/caramelo.jpg">
+                        <h2>Floquinhos</h2>
+                        <p>Doce SRD caramelo</p>
+                        <div class="endereco_data">
+                            <p>Natal, Rio Grande do Norte</p>
+                            <p> 18/05/2022</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+            let state = document.getElementById('state');
+            let moving_arrow = document.getElementById('moving_arrow');
+            let text = document.getElementById('text');
+            let list = document.getElementById('list');
+
+            state.addEventListener('click', () =>{
+                list.classList.toggle('hidden');
+                moving_arrow.classList.toggle('roted');
+            });
+
+            function myfunction (anyone) {
+                text.innerHTML = anyone;
+            }
+
+            let imageid = document.getElementById('imageid');
+            let dropdownid = document.getElementById('dropdownid');
+
+            imageid.addEventListener('click', () =>{
+                dropdownid.classList.toggle('block_div');
+            })
+
+            let load_more_id = document.getElementById('load_more_id');
+            let load_more_anuncios_id = document.getElementById('load_more_anuncios_id');
+
+            load_more_id.addEventListener('click', () => {
+                load_more_anuncios_id.style = 'display:block';
+                load_more_id.style = 'display:none';
+            })
+    </script>
+
+</body>
+</html>
